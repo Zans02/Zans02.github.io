@@ -1,0 +1,93 @@
+<html lang="en">
+    <head>
+        <title>Daftar </title>
+        <link rel="stylesheet" href="belajarforms.css">
+      
+    </head>
+
+<body>
+      <form method="POST" action="daftar.php"> 
+        <img src="gambar/logo-rrq-black-removebg-preview.png" alt="logorrq">
+        <h1 > FORM PENDAFTARAN RRQ HOSHI </h1>
+        
+          
+        
+        
+         <fieldset >
+            <legend> <b>Akun</b></legend>
+            <table>
+            <tr>
+               
+              <td> <label for="uname"><b>Username</label></b></td>
+              <td> <input type="text" name="Username" id="uname"><br> </td>
+              
+            </tr>
+            <tr>
+                <td> <label for="email"><b>E-mail</b></label></td>
+                <td> <input type="email" name="email" id="email"><br></td>
+            </tr>
+            <tr>
+                <td> <label for="pass"><b>Password</label></td>
+                <td> <input type="password" name="Password" id="pass"><br></td>
+              
+            </tr>
+            <tr>
+                <td> <label for="cpass"><b>Konfirmasi Password</label></td>
+                <td> <input type="password" name="cpassword" id="cpass"><br></td>
+            </b>
+            </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend> <b> Data</b></legend>
+            <table>
+                <tr>
+                    <td> <label for="name"><b>Nama</label></td>
+                    <td> <input type="text" name="nama" id="name"><br></td>
+                </tr>
+                <tr>
+                    <td> <label for="datebirth"><b>Tanggal lahir</label></td>
+                    <td> <input type="date" name="tanggal"><br></td>
+                </tr>
+                <tr>
+                    <td> <label for="gender"><b>Jenis Kelamin</label></td>
+                    <td> <input type="radio" name="gender"><b>Laki-laki
+                     <input type="radio" name="gender"><b>Perempuan </td>
+                </tr>
+                <tr>
+                    <td> <label for="jurusan"><b>Game</label></td>
+                     <td>  <select name="Jurusan">
+                         <option value="">&lt;&lt;&lt;Pilih salah satu&gt;&gt;&gt;</option>
+                        <option value="ML">Mobile Legends</option>
+                        <option value="fifa">FIFA </option>
+                        <option value="ff">Free Fire</option>
+                        <option value="pubg">PUBG Mobile</option>
+                        <option value="dota">DOTA 2</option>
+                        <option value="po">Pou</option>
+                         </select></td>
+                </tr>
+                <tr>
+                    <td> <label for="hobi "><b>Hobi</label></td>
+                    <td> <input type="checkbox" name="hobi1" id="hobi1">
+                         <label for="hobi"><b>Nonton</label> 
+                         <input type="checkbox" name="hobi2"><b>Olahraga
+                         <input type="checkbox" name="hobi3"><b>Travelling
+                         <input type="checkbox" name="hobi4"><b>Lain-lain
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="reason"><b>Alasan bergabung</label></td>
+                    <td> <textarea name="alasan" rows="7" cols="30"> Saya bergabung karena...</textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+         <table>
+             <tr>
+                 <td> <input type="submit" value="Daftar"></td>
+                 <td><button type="reset">Reset</button></td>
+             </tr>
+         </table>
+</form>
+</body> 
+   </html>
